@@ -1,0 +1,18 @@
+@'
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.db
+*.sqlite
+.env
+.env.*
+venv/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+build/
+dist/
+'@ | Out-File -Encoding UTF8 .gitignore
